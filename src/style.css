@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+  color: #000000;
+}
+
+h1 {
+  margin: 20px 0 15px 0;
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  background-color: #999999;
+  padding: 20px;
+}
+li {
+  display: inline;
+  padding: 8px;
+}
+
+ul > li:hover {
+}
+
+.form-inline .form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 1px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: #000000;
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+}
+.container {
+  height: 200px;
+  width: 100%;
+  background-color: #eaecee;
+}
+
+ul.a {
+  list-style-type: circle;
+}
